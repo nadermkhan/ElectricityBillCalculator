@@ -46,7 +46,8 @@ android:padding="8dp">
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:src="@drawable/flash"
-					android:scaleType="center" />
+					android:scaleType="center"
+					android:tint="?attr/colorOnBackground" />
 				<TextView
 					android:id="@+id/textViewWattage"
 					android:layout_width="wrap_content"
@@ -55,7 +56,7 @@ android:padding="8dp">
 					android:text="65W"
 					android:textSize="40sp"
 					android:textStyle="bold"
-					android:textColor="#000000" />
+					android:textColor="?attr/colorOnBackground" />
 			</LinearLayout>
 			<LinearLayout
 				android:id="@+id/linear5"
@@ -70,7 +71,7 @@ android:padding="8dp">
 					android:layout_height="wrap_content"
 					android:src="@drawable/bdt"
 					android:scaleType="center"
-					android:tint="#ffffff"
+					android:tint="?attr/colorOnBackground"
 				/>
 				<TextView
 					android:id="@+id/textViewCostPerItem"
@@ -79,7 +80,7 @@ android:padding="8dp">
 					android:padding="8dp"
 					android:text="3৳"
 					android:textSize="40sp"
-					android:textColor="#000000" />
+					android:textColor="?attr/colorOnBackground" />
 			</LinearLayout>
 		</LinearLayout>
 		<LinearLayout
@@ -95,14 +96,15 @@ android:padding="8dp">
 				android:layout_height="wrap_content"
 				android:src="@drawable/clock"
 				android:scaleType="center"
+				android:tint="?attr/colorOnBackground"
 				 />
 			<TextView
 				android:id="@+id/textViewTime"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:padding="8dp"
+				android:textSize="24dp"
 				android:text="86400s"
-				android:textSize="12sp"
 				 />
 		</LinearLayout>
 	</LinearLayout>

@@ -72,6 +72,7 @@ android:id="@+id/buttonAddItem"
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:layout_marginTop="8dp"
+android:drawableStart="@drawable/plus"
 android:text="Add Item" />
 </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
